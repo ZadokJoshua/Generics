@@ -4,7 +4,7 @@ StackStrings();
 
 static void StackDoubles()
 {
-    var stack = new SimpleStackDouble();
+    var stack = new SimpleStack<double>();
     stack.Push(1.2);
     stack.Push(3.8);
     stack.Push(3.0);
@@ -23,7 +23,7 @@ static void StackDoubles()
 
 static void StackStrings()
 {
-    var stack = new SimpleStackString();
+    var stack = new SimpleStack<string>();
     stack.Push("Zadok is the boss");
     stack.Push("Merci, bien.");
     stack.Push("Joshua went to church.");
