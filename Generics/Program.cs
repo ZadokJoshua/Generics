@@ -1,9 +1,37 @@
-﻿var stack = new SimpleStack();
-stack.Push(1.2);
-stack.Push(3.8);
-stack.Push(3.0);
+﻿StackDoubles();
+StackStrings();
 
-while(stack.Count > 0)
+
+static void StackDoubles()
 {
-    double item = stack.Pop();
+    var stack = new SimpleStack();
+    stack.Push(1.2);
+    stack.Push(3.8);
+    stack.Push(3.0);
+
+    double sum = 0.0;
+
+    while (stack.Count > 0)
+    {
+        double item = (double)stack.Pop();
+        Console.WriteLine($"Item: {item}");
+        sum += item;
+    }
+
+    Console.WriteLine($"Sum: {sum}");
 }
+
+static void StackStrings()
+{
+    var stack = new SimpleStack();
+    stack.Push("Zadok is the boss");
+    stack.Push("Merci, bien.");
+    stack.Push("Joshua went to church.");
+
+    while(stack.Count > 0)
+    {
+        Console.WriteLine(stack.Pop());
+    }
+}
+
+Console.ReadLine();
