@@ -19,4 +19,12 @@ namespace WiredBrainCoffee.StorageApp.Repositories
             }
         }
     }
+
+    public class EmployeeRepositoryWithRemove : GenericRepository<Employee>
+    {
+        public void Remove(Employee employee)
+        {
+            _items.Remove(employee);
+        }
+    }
 }
