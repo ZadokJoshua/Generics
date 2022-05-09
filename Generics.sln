@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.StackApp", "Generics\WiredBrainCoffee.StackApp.csproj", "{A6CDB0D0-29A8-4A6F-A985-F70A2CA74837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiredBrainCoffee.StackApp", "Generics\WiredBrainCoffee.StackApp.csproj", "{A6CDB0D0-29A8-4A6F-A985-F70A2CA74837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.StorageApp", "WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp.csproj", "{05462618-87A1-440E-8047-FA0AD3A633C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiredBrainCoffee.StorageApp", "WiredBrainCoffee.StorageApp\WiredBrainCoffee.StorageApp.csproj", "{05462618-87A1-440E-8047-FA0AD3A633C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDataStore", "SchoolDataStore\SchoolDataStore.csproj", "{70521A96-DDDC-47A4-B461-5293658AD912}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{05462618-87A1-440E-8047-FA0AD3A633C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05462618-87A1-440E-8047-FA0AD3A633C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05462618-87A1-440E-8047-FA0AD3A633C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70521A96-DDDC-47A4-B461-5293658AD912}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70521A96-DDDC-47A4-B461-5293658AD912}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70521A96-DDDC-47A4-B461-5293658AD912}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70521A96-DDDC-47A4-B461-5293658AD912}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
